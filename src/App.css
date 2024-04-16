@@ -1,0 +1,92 @@
+/*App.css */
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+/* Apply a basic font */
+body {
+  font-family: 'Arial', sans-serif;
+}
+/* Header styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 0.5rem;
+}
+header nav {
+  margin-top: 0.5rem;
+}
+/* Navigation link styles */
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav a {
+  color: #fff;
+  text-transform: uppercase;
+}
+nav a.active, nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+/* Section styles */
+section {
+  padding: 2rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
+/* Form styles */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+/* Button styles */
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+button:hover {
+  background: #555;
+}
+/* Footer styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+footer a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+}
